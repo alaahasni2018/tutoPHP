@@ -22,6 +22,7 @@
 		} else {
 			$_SESSION['user']=$user['name'] ;
 			header('location: home.php');
+			echo "hi";
 		}
 	}
 
